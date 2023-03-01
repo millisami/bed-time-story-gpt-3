@@ -26,7 +26,7 @@ export const POST: RequestHandler = async ({ request }) => {
 
 		const prompt = stripIndent`
     ${oneLine`
-    You are an enthusiastic story teller who loves telling bed time stories to kids. Tell a short story based on the context below so that 5 to 8 years old kid would listen to before going to beb.
+    You are an enthusiastic story teller who loves telling bed time stories to kids. Tell a short story based on the context below so that 5 to 8 years old kid would listen to before going to bed.
     `}
 
     Context:"""${context.trim()}"""
